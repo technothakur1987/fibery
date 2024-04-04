@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Sharada&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tac+One&display=swap");
+#navbar-brandd {
+  position: relative;
+}
+#star {
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  bottom: 50%;
+}
+#roundgreen {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  bottom: 50%;
+  border-radius: 50%;
+  background-color: green;
+  margin-left: 0.1rem;
+}
+#ai {
+  color: green;
+  font-size: 0.5rem;
+  position: absolute;
+  left: 125%;
+  bottom: 45%;
+  font-family: "Tac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#mobileLogo {
+  display: none;
+}
+
+
+@media (max-width: 991.98px) {
+  #mqalignCenter {
+    align-items: start !important;
+    flex-direction: column !important;
+  }
+  #innerdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .demobtn {
+    margin: 2rem auto !important;
+  }
+  #signbtn {
+    margin: 0rem auto !important;
+  }
+  .navbar {
+    font-size: larger !important;
+  }
+  #mobileLogo {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    margin: 5vh auto;
+  }
+  #bg-body-tertiaryy {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+  }
+}
+@media (max-width: 767.98px) {
+  #mobileLogo {
+    display: block;
+    height: 8rem;
+    width: 8rem;
+    margin: 5vh auto;
+  }
+  #bg-body-tertiaryy {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+  }
+  .demobtn {
+    margin: 2rem auto !important;
+  }
+}
